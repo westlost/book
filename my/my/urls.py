@@ -13,7 +13,5 @@ urlpatterns = patterns('',
     url(r'^information/(.+)/$', information),
     url(r'^addbook/$', addbook),
     url(r'^search/$', search),
-    url(r'^addauthor/$', addauthor),
-    url(r'^update/(.+)/$', update),
-    url(r'^update/$', update), 
+    url(r'^update/(.+)/$', update),                   
 )
